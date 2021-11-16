@@ -1,0 +1,25 @@
+{
+    "name": "db-spider",
+    "version": "1.0.0",
+    "description": "View douban.com in command line",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "douban"
+    ],
+    "author": "acccccccb",
+    "dependencies": {
+        "buffer": "^6.0.3",
+        "colors": "^1.4.0",
+        "fs-extra": "^10.0.0",
+        "got": "^11.8.2",
+        "html-entities": "^2.3.2",
+        "iconv-lite": "^0.6.3",
+        "inquirer": "^8.1.1",
+        "path": "^0.12.7"
+    },
+    "license": "ISC"
+}
